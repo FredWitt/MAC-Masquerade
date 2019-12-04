@@ -1,0 +1,77 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Charter",
+		"_postman_id": "f2f04d0f-6022-a8c6-abc3-fd1909a2d6f4",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET - All Traffic-Groups",
+			"request": {
+				"url": "https://10.1.1.5/mgmt/cm/shared/current-config/cm/traffic-group",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4uRjVkZW1vLmNvbQ==",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Device Specific Traffic-Group",
+			"request": {
+				"url": "https://10.1.1.5/mgmt/cm/shared/current-config/cm/traffic-group/038dfd13-1e65-3aa3-8db1-0041d8cdadff",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4uRjVkZW1vLmNvbQ==",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Traffic-Group Example",
+			"request": {
+				"url": "https://10.1.1.5/mgmt/cm/shared/current-config/cm/traffic-group/example",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4uRjVkZW1vLmNvbQ==",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
